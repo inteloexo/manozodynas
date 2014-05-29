@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New word</title>
+</head>
+<body>
+    <p>Įveskite naują žodį:</p>
+    <form action="." method="post" id="new_word">{% csrf_token %}
+        {{ form.as_p}}
+        <button>Įvesti</button>
+    </form>
+</body>
+</html>
