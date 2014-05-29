@@ -47,3 +47,7 @@ class User(AbstractBaseUser, PermissionsMixin):
 
 class Word(models.Model):
     word = models.CharField(max_length = "50")
+
+class Translation(models.Model):
+    word = models.ForeignKey('Word')
+    translation = models.TextField()
