@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     url(r'^$', index_view, name='index'),
     url(r'^login$', login_view, name='login'),
     url(r'^words/$', words_view, name='words'),
-    url(r'^new/$', translations_view, name='translations'),
+    url(r'^translations/$', translations_view, name='translations'),
     url(r'^new/$', NewWord.as_view(), name='new_word'),
     url(r'^newTranslation/$', NewTranslation.as_view(), name='new_translation'),
 )

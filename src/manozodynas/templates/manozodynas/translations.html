@@ -7,7 +7,7 @@
     <h1>Vertimai</h1>
     <ul>
         {% for translation in translations %}
-            <li> {{translation.word.word}} {{translation.translation}} </li>
+            <li> <b>{{translation.word.word}}</b> - {{translation.translation}} </li>
         {% endfor %}
     </ul>
 </body>

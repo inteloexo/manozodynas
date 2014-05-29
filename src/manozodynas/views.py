@@ -40,5 +40,5 @@ class NewWord(CreateView):
 
 class NewTranslation(CreateView):
     model = Translation
-    success_url = ''
+    success_url = reverse_lazy('translations')
     template_name = 'manozodynas/newTranslation.html'
