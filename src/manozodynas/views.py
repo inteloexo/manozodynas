@@ -4,6 +4,8 @@ from django.core.urlresolvers import reverse
 from .forms import LoginForm
 from django.contrib.auth import login
 from .models import Word
+from django.views.generic import CreateView
+from django.core.urlresolvers import reverse_lazy
 
 
 def index_view(request):
@@ -26,3 +28,9 @@ def login_view(request):
 
 def words_view(request):
     return render(request, 'manozodynas/words.html', {'words': Word.objects.all()})
+
+
+class NewWord(CreateView):
+    model = Word
+    success_url = reverse_lazy('word_view')
+    template_name = 'manozodynas/new.html'

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec27ea73-a86d-4916-948a-442655367bbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/manozodynas/new.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/manozodynas/words.html" afterPath="$PROJECT_DIR$/templates/manozodynas/words.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="manozodynas.iws" />
@@ -36,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/manozodynas/new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+            <state line="9" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="10" column="44" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -56,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="63" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+            <state line="35" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.8164852" vertical-offset="0" max-vertical-offset="643">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -81,10 +80,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/models.py" />
-        <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/urls.py" />
         <option value="$PROJECT_DIR$/templates/manozodynas/words.html" />
         <option value="$PROJECT_DIR$/templates/manozodynas/new.html" />
+        <option value="$PROJECT_DIR$/views.py" />
       </list>
     </option>
   </component>
@@ -345,7 +344,11 @@
       <created>1401365313328</created>
       <updated>1401365313328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added header to words.html; created new file new.html">
+      <created>1401367412839</created>
+      <updated>1401367412839</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -387,7 +390,8 @@
     <MESSAGE value="Added new class Word to models.py; generated database schema migration." />
     <MESSAGE value="Added words_view to views.py" />
     <MESSAGE value="Added words_view to urls.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added words_view to urls.py" />
+    <MESSAGE value="Added header to words.html; created new file new.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added header to words.html; created new file new.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,24 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="63" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/manozodynas/words.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="18" selection-start="189" selection-end="189" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
@@ -436,8 +422,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/manozodynas/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+        <state line="9" column="22" selection-start="216" selection-end="216" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="44" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.8164852" vertical-offset="0" max-vertical-offset="643">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
