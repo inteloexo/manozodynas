@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec27ea73-a86d-4916-948a-442655367bbf" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/manozodynas/translation.html" afterPath="$PROJECT_DIR$/templates/manozodynas/translations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.py" afterPath="$PROJECT_DIR$/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/manozodynas/index.html" afterPath="$PROJECT_DIR$/templates/manozodynas/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="manozodynas.iws" />
@@ -41,10 +38,19 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="45" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="930">
+            <state line="56" column="36" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="930">
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/manozodynas/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="32" selection-start="376" selection-end="376" vertical-scroll-proportion="0.33925685" vertical-offset="0" max-vertical-offset="619">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translations.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="translations.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/manozodynas/translations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="203" selection-end="203" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+            <state line="13" column="7" selection-start="286" selection-end="286" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -83,7 +89,7 @@
       <file leaf-file-name="newTranslation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/manozodynas/newTranslation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+            <state line="8" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -110,6 +116,7 @@
         <option value="$PROJECT_DIR$/views.py" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/templates/manozodynas/translations.html" />
+        <option value="$PROJECT_DIR$/templates/manozodynas/index.html" />
       </list>
     </option>
   </component>
@@ -394,7 +401,11 @@
       <created>1401376304377</created>
       <updated>1401376304377</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed bugs in  urls.py and views.py; Added method to Word model __str__">
+      <created>1401379117297</created>
+      <updated>1401379117297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -443,7 +454,8 @@
     <MESSAGE value="Fixed syntax errors at urls.py and views.py" />
     <MESSAGE value="Created new model translation" />
     <MESSAGE value="Created translation views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created translation views" />
+    <MESSAGE value="Fixed bugs in  urls.py and views.py; Added method to Word model __str__" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs in  urls.py and views.py; Added method to Word model __str__" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -479,22 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="44" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="735">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/manozodynas/newTranslation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="643">
@@ -504,18 +500,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
+    <entry file="file://$PROJECT_DIR$/templates/manozodynas/newTranslation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="45" selection-start="2000" selection-end="2000" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="930">
+        <state line="8" column="17" selection-start="205" selection-end="205" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="44" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="735">
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/manozodynas/translations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="203" selection-end="203" vertical-scroll-proportion="0.2180937" vertical-offset="0" max-vertical-offset="619">
+        <state line="13" column="7" selection-start="286" selection-end="286" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="36" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="930">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/manozodynas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="376" selection-end="376" vertical-scroll-proportion="0.33925685" vertical-offset="0" max-vertical-offset="619">
           <folding />
         </state>
       </provider>
