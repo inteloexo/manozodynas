@@ -8,8 +8,8 @@ from .views import index_view, login_view, words_view, NewWord
 urlpatterns = patterns('',
     url(r'^$', index_view, name='index'),
     url(r'^login$', login_view, name='login'),
-    url(r'^words', words_view, name='words').
-    url(r'^new$', NewWord, name='new_word')
+    url(r'^words/$', words_view, name='words'),
+    url(r'^new/$', NewWord.as_view(), name='new_word'),
 )
 
 urlpatterns += staticfiles_urlpatterns()

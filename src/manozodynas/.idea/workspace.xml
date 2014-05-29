@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ec27ea73-a86d-4916-948a-442655367bbf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urls.py" afterPath="$PROJECT_DIR$/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="manozodynas.iws" />
@@ -47,7 +48,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="41" selection-start="413" selection-end="413" vertical-scroll-proportion="0.25660965" vertical-offset="0" max-vertical-offset="643">
+            <state line="11" column="55" selection-start="429" selection-end="429" vertical-scroll-proportion="0.25660965" vertical-offset="0" max-vertical-offset="643">
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -58,7 +59,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+            <state line="31" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -352,7 +353,11 @@
       <created>1401367794712</created>
       <updated>1401367794712</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added NewWord to urls.py">
+      <created>1401367955931</created>
+      <updated>1401367955931</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -396,7 +401,8 @@
     <MESSAGE value="Added words_view to urls.py" />
     <MESSAGE value="Added header to words.html; created new file new.html" />
     <MESSAGE value="Created class NewWord at views.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class NewWord at views.py" />
+    <MESSAGE value="Added NewWord to urls.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added NewWord to urls.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -406,15 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="15" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="44" selection-start="1999" selection-end="1999" vertical-scroll-proportion="1.1197512" vertical-offset="0" max-vertical-offset="810">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,9 +429,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="44" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.8600311" vertical-offset="167" max-vertical-offset="810">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="36" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+        <state line="31" column="0" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
@@ -443,7 +449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="413" selection-end="413" vertical-scroll-proportion="0.25660965" vertical-offset="0" max-vertical-offset="643">
+        <state line="11" column="55" selection-start="429" selection-end="429" vertical-scroll-proportion="0.25660965" vertical-offset="0" max-vertical-offset="643">
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

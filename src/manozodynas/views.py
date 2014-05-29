@@ -32,5 +32,5 @@ def words_view(request):
 
 class NewWord(CreateView):
     model = Word
-    success_url = reverse_lazy('word_view')
+    success_url = reverse_lazy('words')
     template_name = 'manozodynas/new.html'
