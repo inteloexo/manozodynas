@@ -3,7 +3,7 @@ from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from .forms import LoginForm
 from django.contrib.auth import login
-from .models import Word
+from .models import Word, Translation
 from django.views.generic import CreateView
 from django.core.urlresolvers import reverse_lazy
 
@@ -29,8 +29,16 @@ def login_view(request):
 def words_view(request):
     return render(request, 'manozodynas/words.html', {'words': Word.objects.all()})
 
+def translations_view(request):
+    return render(request, 'manozodynas/translations.html', {'translations': Translation.objects.all()})
+
 
 class NewWord(CreateView):
     model = Word
     success_url = reverse_lazy('words')
     template_name = 'manozodynas/new.html'
+
+class NewTranslation(CreateView):
+    model = Translation
+    success_url = ''
+    template_name = 'manozodynas/newTranslation.html'

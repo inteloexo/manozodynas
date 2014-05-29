@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New translation</title>
+</head>
+<body>
+    <p>Įveskite naują vertimą:</p>
+    <form action="." method="post" id="new_translation">{% csrf_token %}
+        {{ form.as_p}}
+        <button>Įvesti</button>
+    </form>
+</body>
+</html>

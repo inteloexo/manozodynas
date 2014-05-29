@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translations</title>
+</head>
+<body>
+    <h1>Vertimai</h1>
+    <ul>
+        {% for translation in translations %}
+            <li> {{translation.word.word}} {{translation.translation}} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
